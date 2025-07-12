@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.nav{
+    height:50px ;
+    width: 100%vw;
+    background-color: black;
+}
+.mainnav{
+    width: 100%vw;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px 0 40px;
+}
+.mainnav h1{
+    font-size: 25px;
+    color: white;
+}
+.mainnav a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+.navlink a{
+    margin-right: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    margin: 150px 50px 0 50px;
+    width: 600px;
+}
+.container h1{
+    font-size: 35px;
+}
+.container p{
+    margin: 20px 0 20px 0;
+    font-weight: 500;
+}
+button{
+    border: none;
+    background-color: #358EFF;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+.container a{
+color: white;
+text-decoration: none;
+font-weight: 600;
+}
+.container2{
+    width: 500px;
+    height: 500px;
+    background-color: lightgrey;
+    margin: 40px 40px 40px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2 h1{
+    font-size: 50px;
+    color: lightslategrey;
+}
+.container3{
+    width: 100%vw;
+    background-color: #EAEAEA;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    text-align: center;
+}
+.box h1{
+    margin-bottom: 10px;
+}
+.container4{
+    text-align: center;
+    height: 230px;
+}
+.container4 h1{
+    margin: 40px 0 30px 0;
+}
+.container4 i{
+    font-size: 20px;
+}
+.container4 p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.footer{
+    background-color: black;
+    height: 50px;
+    width: 100%vw;
+    color: white
+}
+.mainfoot{
+    width: 100%vw;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px 0 40px;
+}
+.footlink a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
